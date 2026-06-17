@@ -31,3 +31,13 @@ tea_shop={
 
     squared_numbers={x:x**2 for x in range(6)}  # this will create a dictionary with numbers from 1 to 5 as keys and their squares as values
 print(squared_numbers)
+
+
+
+keys=["ginger","cardamom", "cinnamon"]
+default_value="tasty"
+new_dict=dict.fromkeys(keys, default_value)  # this will create a new dictionary with the keys from the list and the default value
+print(new_dict)
+
+
+# end of this chapter
