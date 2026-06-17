@@ -10,3 +10,6 @@ Boolean : True, False
 None : None
 Functions, modules, classes
 Advanced : Decorators, Generators, Iterators, MetaProgramming
+
+
+new class
