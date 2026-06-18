@@ -66,3 +66,41 @@ elif fruit_color == "red":
 
 else:
     print("unknown fruit color")
+
+
+#question5
+#suggest an activity based on the weather conditions.
+
+weather =input("Enter the weather condition (sunny, rainy, cloudy): ")
+
+if weather =="sunny":
+    print("It's a great day for a picnic!")
+
+elif weather =="rainy":
+    print("Don't forget your umbrella!")
+
+elif weather =="cloudy":
+    print("It might rain later, take a jacket just in case.")
+
+else:
+    print("Unknown weather condition. Please check the forecast.")
+
+
+
+#Question 6
+#Choose a mode of transportation based on the distance to be traveled.
+
+distance =float(input("enter the distance to be traveled in km: "))
+
+if distance <3:
+    print("You can walk to your destination.")
+
+elif distance <15:
+    print("You can ride a bicycle to your destination.")
+
+elif distance >15:
+    print("You can take a bus or drive to your destination.")
+
+else:
+    print("Invalid distance entered.")
+
