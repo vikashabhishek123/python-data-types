@@ -30,6 +30,11 @@ print("ticket price is $" , price)
 #question3
 marks=89
 
+if marks >=101:
+    print("invalid marks")
+    exit()
+
+
 if marks >=90:
     print("A grade")
 
@@ -44,3 +49,20 @@ elif marks >=60:
 
 else:
     print("failed")
+
+
+#Question4
+#Determine if a fruit is ripe or not based on its color.
+
+fruit_color = input("Enter the color of the fruit: ")
+if fruit_color == "green":
+    print("the fruit is not ripen")
+
+elif fruit_color == "yellow":
+    print("the fruit is ripen")
+
+elif fruit_color == "red":
+    print("the fruit is overripe")  
+
+else:
+    print("unknown fruit color")
