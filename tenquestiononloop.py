@@ -35,3 +35,33 @@ for i in range(1, 11):
 
 #question 4
 #reverse a string using loop 
+input_string = "Pythion"
+reversed_string = ""
+
+for char in input_string:
+    reversed_string = char + reversed_string
+
+print("The reversed string is:", reversed_string)
+
+#question5
+#we have to write a program that find a non repeating character in a string
+ input_string = "hello"
+
+ for char in input_string:
+        if input_string.count(char) == 1:
+            print("The first non-repeating character is:", char)
+            break
+
+
+
+#question 6
+#write a program to find the factorial of a number using while loop   
+
+number=5
+factorial=1
+
+while number > 0:
+    factorial = factorial * number
+    number = number-1
+
+    print("The factorial of the number is:", factorial)
