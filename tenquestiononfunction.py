@@ -13,3 +13,24 @@ def two_number(number1,number2):
 result = two_number(5,10)
 print("the sum of two numbers is:", result)
 
+
+
+#q3 write a function that multiply two numbers 
+
+ def multiply(num1,num2):
+    return num1*num2
+result = multiply(5,10)
+print("the multiplication of two numbers is:", result)
+
+
+
+#q4 write a function that returns area and circumererce by taking radius as a parameter
+
+def circle(radius):
+    area = 3.14 * radius ** 2
+    circumference = 2 * 3.14 * radius
+    return area, circumference
+
+result = circle(5)
+print("the area of the circle is:", result[0])
+print("the circumference of the circle is:", result[1])
