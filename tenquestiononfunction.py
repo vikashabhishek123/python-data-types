@@ -34,3 +34,17 @@ def circle(radius):
 result = circle(5)
 print("the area of the circle is:", result[0])
 print("the circumference of the circle is:", result[1])
+
+
+#q5 write a a function that gives cube of a number
+
+def cube(number):
+    return number ** 3
+result = cube(5)
+print("the cube of the number is:", result)
+
+
+#now doing the same thing using lambda function
+cube = lambda x: x ** 3
+result = cube(5)
+print("the cube of the number using lambda function is:", result)
